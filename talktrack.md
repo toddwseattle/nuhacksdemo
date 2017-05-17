@@ -91,8 +91,34 @@ explain that typescript has more java style classes. Using constructor, public p
         <span *ngIf="!a.favorite" class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
     </button>{{a.name}}
 ````
-
-
+# style list
+ok.  so how do we get rid of these bullets? lets add some boostrap goodness
+emmet for table: `div>table.table-striped.table-bordered>(tr>th{Fav}+th{Artist})+(tr>td+td{{{a.name}}})` or full artist-list.component.html:
+````
+div class="container">
+  <table class="table-striped table-bordered artist-fav">
+    <tr>
+      <th class="col-md-1 col-sm-1">Fav</th>
+      <th class="col-md-6 col-sm-4" >Artist</th>
+    </tr>
+    <tr *ngFor="let a of artistlist; let i=index">
+      <td>
+        <button (click)="toggleFavorite(a)" class="btn btn-xs artist-fav">
+          <span *ngIf="a.favorite" class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span *ngIf="!a.favorite" class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+        </button>
+      </td>
+      <td >{{a.name}}</td>
+    </tr>
+  </table>
+</div>
+````
+csss for artist fav:
+````
+.artist-fav {
+    background-color: #4E2A84;
+    color: #d8d6d6;
+}
 
 
 
