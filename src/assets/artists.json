@@ -1,0 +1,46 @@
+"artists":[
+    {
+    name: 'The Black Keys',
+    photourl:'http:/img-loc/black-keys.png'
+    },
+    {
+    name: 'Arcade Fire',
+    photourl:'http:/img-loc/arcade-fire.png'
+    },
+    {
+    name: 'Bob Dylan',
+    photourl:'http:/img-loc/bob-dylan.jpg'
+    },
+    {
+    name: 'Buddy Guy',
+    photourl:'http:/img-loc/buddy-guy.jpg'
+    },
+    {
+    name: 'Chance The Rapper',
+    photourl:'http:/img-loc/chance-the-rapper.jpg'
+    },
+    {
+    name: 'Kanye West',
+    photourl:'http:/img-loc/kanye.jpg'
+    },
+    {
+    name: 'LCD Soundsystem',
+    photourl:'http:/img-loc/lcd-soundsystem.jpg'
+    },
+    {
+    name: 'MGMT',
+    photourl:'http:/img-loc/mgmt.jpg'
+    },
+    {
+    name: 'Sylvan Esso',
+    photourl:'http:/img-loc/sylvan-esso.jpg'
+    },
+    {
+    name: 'TV on the Radio',
+    photourl:'http:/img-loc/tv-on-the-radio.jpg'
+    },
+    {
+    name: 'Warren Zevon',
+    photourl:'http:/img-loc/lcd-soundsystem.jpg'
+    }
+]

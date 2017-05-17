@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Artist } from './artist';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  artist = '';
+  artists: Artist[]= [ ];
+  title = 'Favorite Muscians';
+  addArtist(toadd: string) {
+    this.artists.push(new Artist(toadd));
+    this.artist = '';
+  }
 }

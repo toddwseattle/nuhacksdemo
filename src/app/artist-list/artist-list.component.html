@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let a of artistlist; let i=index">
+    <button (click)="toggleFavorite(a)" class="btn btn-xs">
+        <span *ngIf="a.favorite" class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        <span *ngIf="!a.favorite" class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+    </button>{{a.name}}
+  </li>
+</ul>

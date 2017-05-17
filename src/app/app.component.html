@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<div class="bg-primary">
+  <h1>
+    {{title}}
+  </h1>
+</div>
+<div class="form-group">
+   <input type="text" class="form-control" placeholder="Artist" [(ngModel)]="artist">
+   <button type="button" class="btn" (click)="addArtist(artist)">Add</button>
+</div>
+<app-artist-list [artistlist]="artists"></app-artist-list>
