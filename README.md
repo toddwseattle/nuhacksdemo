@@ -1,12 +1,14 @@
-# Live2
+# NU Hacks Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This project was used for the angular demo at the wild hacks meeting on 5/17/2017.   A partial [talk track](talktrack.md) is contained within the repository.   the master represents the final state at the end of the demo.   A few companion slides are in the presentation [Hack Angular Wildly](https://www.slideshare.net/toddwarrenseattle/hack-angular-wildly) on [slideshare](https://www.slideshare.net/toddwarrenseattle).
 
-## Development server
+If you are interested in a step by step tutorial, which covers angular.cli, basic components, and creation and wiring of a basic angular service, you can follow the [wildangular tutorial](https://github.com/toddwseattle/wildangular) in a related github repo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This tutorial also covers the pre-reqs, which are similar.
 
-## Code scaffolding
+# NUHacksDemo Repository
+
+This repository was generated with the [angular-cli](https://github.com/angular/angular-cli).  What follows are generic pieces of information for the cli.
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
@@ -16,7 +18,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [Karma](https://karm(a-runner.github.io).
 
 ## Running end-to-end tests
 
